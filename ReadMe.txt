@@ -23,7 +23,13 @@ Encoding:
         Encoded data is printed on the command prompt and separate file ("Encoded.txt") is created in the same location as plain text file.
 
 Decoding:
-        Same as Encoding, First it will create a dictionary of size 256. But here ascii values and characters are keys and values. Note: ascii values and characters are interchanged from encoding dictionary.Then each value is read from the encodedData and try to find the corresponding characters. In some cases, while reading the values from encodedData, that values can not be found in the intial dictionary. So we add the values in the dictionary for the combination of data already read from encodedData. Decoded data is printed on the command prompt and separate file (Decoded.txt) is created in the same location as Encoded text file.
+        Same as Encoding, First it will create a dictionary of size 256.
+	But here ascii values and characters are keys and values.
+	Note: ascii values and characters are interchanged from encoding dictionary.
+	Then each value is read from the encodedData and try to find the corresponding characters. 
+	In some cases, while reading the values from encodedData, that values can not be found in the intial dictionary.
+	So we add the values in the dictionary for the combination of data already read from encodedData. 
+	Decoded data is printed on the command prompt and separate file (Decoded.txt) is created in the same location as Encoded text file.
 	 
 
  
