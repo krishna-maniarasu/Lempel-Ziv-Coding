@@ -45,7 +45,7 @@ fileHandle.close()
 decodedData=[]
 string=""
 Dsize=256
-print("\n\nDecryption",end="\n\n")
+print("\n\nDecryption:",end="\n\n")
 Decryption_dictionary={i:chr(i) for i in range(256)}
 for value in CompressedData:
     if not(value in Decryption_dictionary):
