@@ -1,4 +1,4 @@
-Name: Krishna Mani arasu	
+Name: Krishna Mani arasu (110023737)	
 Programming language: Python 3.8.5
 Compiler: MSC v.1926 32 bit (Intel)
 Algorithm: Lempel Ziv Welch (Lempel Ziv Coding)
